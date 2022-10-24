@@ -119,7 +119,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: devsong # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -234,7 +234,6 @@ display_tags: ['java','string' ,'bloomfilter','mysql', 'innodb','index','blogs',
 # -----------------------------------------------------------------------------
 
 scholar:
-
   last_name: [zhisong]
   first_name: [guan]
 
@@ -310,7 +309,7 @@ enable_tooltips:            false  # enables automatic tooltip links generated
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  false   # enables categorization of projects into
+enable_project_categories:  true   # enables categorization of projects into
                                    # multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
