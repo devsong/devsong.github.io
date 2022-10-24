@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - devsong
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - devsong/devsong.github.io
+  - devsong/maven-bom
+  - devsong/basic_arch
+  - devsong/spring-test-demo
