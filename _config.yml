@@ -133,11 +133,11 @@ disqus_shortname: devsong # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  blogs:
-    defaults:
-      layout: post
-    output: true
-    permalink: /blog/:path/
+  # blogs:
+  #   defaults:
+  #     layout: post
+  #   output: true
+  #   permalink: /blog/:path/
   # news:
   #   defaults:
   #     layout: post
@@ -165,7 +165,7 @@ kramdown:
     span:
       line_numbers: false
     block:
-      line_numbers: false
+      line_numbers: true
       start_line: 1
 
 # Includes & excludes
@@ -303,14 +303,14 @@ enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
+enable_tooltips:            true   # enables automatic tooltip links generated
                                    # for each section titles on pages and posts
 enable_darkmode:            true   # enables switching between light/dark modes
 enable_navbar_social:       false  # enables displaying social links in the
                                    # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
+enable_project_categories:  false  # enables categorization of projects into
                                    # multiple categories
-enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
+enable_medium_zoom:         false  # enables image zoom feature (as on medium.com)
 
 
 # -----------------------------------------------------------------------------
